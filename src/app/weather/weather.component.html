@@ -1,0 +1,24 @@
+
+<div>
+    <ul id = "menu">
+        <li  *ngFor="let weather of weatherData" class ="removeBullet">
+            <a  class = "styleCities"
+            [routerLink] = "[
+            weather.name,
+            weather.springN, 
+            weather.springM, 
+            weather.summerN, 
+            weather.summerM, 
+            weather.winterN, 
+            weather.winterM, 
+            weather.autumnN, 
+            weather.autumnM, 
+            weather.visitFrom, 
+            weather.visitTo]" routerLinkActive="active">           
+            {{weather.name}} </a>
+        </li>
+    </ul>
+</div>
+
+<router-outlet></router-outlet>
+

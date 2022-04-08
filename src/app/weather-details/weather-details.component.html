@@ -1,0 +1,41 @@
+
+
+
+<table>
+
+  <caption>Weather in  {{name}}</caption> 
+
+  <tr>
+    <th [attr.colspan] = "cSpan">Spring</th>
+    <th [attr.colspan] = "cSpan">Summer</th>
+    <th [attr.colspan] = "cSpan">Autumn</th>
+    <th [attr.colspan] = "cSpan">Winter</th>
+ </tr>
+ <tr>
+    <th >Spring Morning</th>
+    <th >Spring Evening</th>
+    <th >Summer Morning</th>
+    <th >Summer Evening</th>
+    <th >Autumn Morning</th>
+    <th >Autumn Evening</th>
+    <th >Winter Morning</th>
+    <th >Winter Evening</th>
+ </tr>
+  <tr>
+    <td>{{springM}}</td>
+    <td>{{springN}}</td>
+    <td>{{summerM}}</td>
+    <td>{{summerN}}</td>
+    <td>{{autumnM}}</td>
+    <td>{{autumnN}}</td>
+    <td>{{winterM}}</td>
+    <td>{{winterN}}</td>
+  </tr>
+</table>
+
+<br>
+
+<div appImportantText>
+    The most suitable time to enjoy your holiday in {{name}} would be between {{vf}} and {{vt}}.
+</div>
+

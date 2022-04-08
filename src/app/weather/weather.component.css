@@ -1,0 +1,18 @@
+.styleCities{
+    text-decoration:none;
+    border: 1px solid red;
+    background-color: white;
+    color:black;
+    padding: 10px; 
+    font-style: italic;
+    margin: 10px
+}
+
+#menu li{
+    display:inline;
+    
+}
+
+a:hover{
+    background: red;
+}
